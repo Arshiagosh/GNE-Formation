@@ -1,0 +1,59 @@
+{
+  "E1": {
+    "model-based gradient": {
+      "final_rel_error": 1.5265850998679242e-08,
+      "final_max_violation": 1.1326667515021427e-07,
+      "final_lambda_gap": 5.064006671773313e-07
+    },
+    "zeroth-order, 4 probes/round, \u03c3=0.01": {
+      "final_rel_error": 0.015868885948739742,
+      "final_max_violation": 0.10927326147242411,
+      "final_lambda_gap": 0.13452184421859315
+    },
+    "zeroth-order, 32 probes/round, \u03c3=0.01": {
+      "final_rel_error": 0.0037949727213633802,
+      "final_max_violation": 0.03360213314709393,
+      "final_lambda_gap": 0.04540462327295103
+    },
+    "reference": {
+      "kkt_residual": 9.328120016177237e-14,
+      "active_constraints": 7,
+      "num_constraints": 15,
+      "strong_monotonicity": 0.8714327451297641,
+      "lipschitz": 3.904054096632046,
+      "jacobian_asymmetry": 1.8470792956957687
+    }
+  },
+  "E2": {
+    "4": {
+      "rounds_to_1e-6": 1704,
+      "constraints": 6
+    },
+    "6": {
+      "rounds_to_1e-6": 5834,
+      "constraints": 15
+    },
+    "8": {
+      "rounds_to_1e-6": 7427,
+      "constraints": 28
+    },
+    "10": {
+      "rounds_to_1e-6": 17231,
+      "constraints": 45
+    },
+    "12": {
+      "rounds_to_1e-6": 19309,
+      "constraints": 66
+    }
+  },
+  "E3": {
+    "steps": 40,
+    "min_pairwise_distance": 1.023002685412399,
+    "d_min": 1.0,
+    "planning_margin": 0.1,
+    "inner_rounds": 2500,
+    "max_kkt_residual": 0.09913584962271803,
+    "max_planned_violation": 0.08351056321191708,
+    "final_dist_to_goal_mean": 1.0496037217855776
+  }
+}
